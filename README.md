@@ -45,6 +45,23 @@ TaskFlow é um gerenciador de tarefas simples e eficiente que utiliza **Python**
 - TaskFlow.py: Arquivo principal com o código do gerenciador de tarefas.
 - Documents/tarefas: Diretório onde os arquivos JSON exportados são salvos automaticamente.
 
+## 🌐 Configuração da Conexão com o MongoDB
+O TaskFlow utiliza uma conexão padrão com o MongoDB rodando localmente, com o seguinte URI:
+mongodb://localhost:27017/
+
+**Alteração da Conexão**
+Caso seja necessário utilizar uma instância diferente (como um banco remoto ou MongoDB Atlas), você pode alterar a conexão diretamente no código, na seguinte linha:
+client = MongoClient("mongodb://localhost:27017/")
+
+Substitua o URI pelo endereço do seu banco. Por exemplo:
+- Banco remoto:client = MongoClient("mongodb://seu-banco-remoto:27017/")
+- MongoDB Atlas:client = MongoClient("mongodb+srv://usuario:senha@cluster.mongodb.net/TaskFlow")
+
+**Requisitos**
+Certifique-se de que o banco de dados TaskFlow e a coleção tarefas estão criados na instância especificada ou serão criados automaticamente na primeira execução do programa.
+
+
+
 ## ⚙️ Uso
 Inicie o programa
 Execute o arquivo principal:
