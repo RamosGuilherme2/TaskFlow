@@ -37,8 +37,9 @@ TaskFlow é um gerenciador de tarefas simples e eficiente que utiliza **Python**
    cd TaskFlow
 
 2. Instale as dependencias:
+   ```bash
+   pip install pymongo
 
-**pip install pymongo**
 
 ## 📂 Estrutura do Projeto
 - TaskFlow.py: Arquivo principal com o código do gerenciador de tarefas.
@@ -47,8 +48,7 @@ TaskFlow é um gerenciador de tarefas simples e eficiente que utiliza **Python**
 ## ⚙️ Uso
 Inicie o programa
 Execute o arquivo principal:
-
-**python TaskFlow.py**
+   **python TaskFlow.py**
 
 
 Funcionalidades disponíveis
