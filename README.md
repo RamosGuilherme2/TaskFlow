@@ -1,2 +1,94 @@
 # TaskFlow
-Um gerenciador de tarefas simples feito com Python e MongoDB. Organize suas atividades diárias com funcionalidades como adicionar, listar, concluir, remover, exportar e importar tarefas. Ideal para quem busca uma solução eficiente e personalizável para o gerenciamento de tarefas
+
+TaskFlow é um gerenciador de tarefas simples e eficiente que utiliza **Python** e **MongoDB** para ajudar na organização e controle de atividades. Ele suporta funcionalidades como adicionar, listar, concluir, remover e exportar tarefas. Além disso, possui integração para exportar dados em formato JSON no diretório `Documentos/tarefas`.
+
+---
+
+## 🛠️ Funcionalidades
+
+1. **Adicionar Tarefa**: Inclua uma tarefa com detalhes opcionais.
+2. **Listar Tarefas**: Exiba todas as tarefas com status (pendente ou concluída) e descrição.
+3. **Concluir Tarefa**: Marque uma tarefa como concluída.
+4. **Remover Tarefa**: Delete uma tarefa por número ou nome.
+5. **Exportar para JSON**: Gere um arquivo JSON com todas as tarefas armazenadas.
+6. **Importar Tarefas de JSON**: Carregue tarefas a partir de um arquivo JSON externo (próxima funcionalidade!).
+
+---
+
+## 🚀 Tecnologias
+
+- **Python**: Linguagem principal utilizada.
+- **MongoDB**: Banco de dados para armazenar tarefas.
+- **Pymongo**: Biblioteca Python para integração com MongoDB.
+- **JSON**: Formato para exportação de dados.
+
+---
+
+## 📦 Configuração
+
+### Pré-requisitos
+1. Instale o Python 3.x.
+2. Certifique-se de ter o MongoDB rodando localmente.
+
+### Instalação
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/RamosGuilherme2/TaskFlow
+   cd TaskFlow
+
+2. Instale as dependencias:
+
+**pip install pymongo**
+
+## 📂 Estrutura do Projeto
+- TaskFlow.py: Arquivo principal com o código do gerenciador de tarefas.
+- Documents/tarefas: Diretório onde os arquivos JSON exportados são salvos automaticamente.
+
+## ⚙️ Uso
+Inicie o programa
+Execute o arquivo principal:
+
+**python TaskFlow.py**
+
+
+Funcionalidades disponíveis
+- Escolha uma opção no menu interativo para gerenciar suas tarefas.
+- Use a exportação para salvar tarefas localmente em JSON.
+
+## 🛡️ Melhorias Planejadas
+- Suporte a categorias e prioridades.
+- Sistema de histórico para preservar tarefas concluídas ou removidas.
+- Opção para buscar tarefas por nome ou detalhes.
+- Relatórios e estatísticas para análise do progresso.
+- Exportação e importação de dados em formato CSV.
+- Interface gráfica (GUI) com Tkinter ou PyQt.
+
+## 🤝 Contribuição
+Contribuições são bem-vindas! Siga os passos abaixo:
+- Faça um fork do projeto.
+- Crie uma nova branch: git checkout -b minha-melhoria.
+- Commit suas mudanças: git commit -m 'Adicionei nova funcionalidade'.
+- Envie suas alterações: git push origin minha-melhoria.
+
+## 📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+## 🧑‍💻 Autor
+Guilherme
+- LinkedIn: [Guilherme Ramos](https://www.linkedin.com/in/guilherme-ramos-90517b235/)
+- GitHub: [RamosGuilherme2](https://github.com/RamosGuilherme2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
